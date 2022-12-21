@@ -11,4 +11,4 @@ O sistema contém as seguintes funcionalidades:
 - Página de "Register" para cadastrar um novo usuario;
 - E um botão de "Logout" para deslogar da conta e tirar o acesso ao "App".
 
-Para rodar tem que dar um "git clone" no repositório, colocar a pasta "todo-laravel" dentro da pasta "www" do laragon para linkar com o banco de dados, após isso é só mudar o ".env" do laravel e mudar para um database local, e no laravel rodar o comando "php artisan migrate" para realizar a criação das tabelas, a e ai no front-end é só rodar o comando "npm run dev", que tudo irá funcionar corretamente.
+Para rodar tem que dar um "git clone" no repositório, colocar a pasta "todo-laravel" dentro da pasta "www" do laragon para linkar com o banco de dados, após isso é só cria um ".env" do laravel e colocar um database local, e no laravel rodar o comando "php artisan migrate" para realizar a criação das tabelas, a e ai no front-end é só rodar o comando "npm run dev", que tudo irá funcionar corretamente.
